@@ -1,0 +1,90 @@
+.contenedor{
+    padding: 5px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: "header header"
+                         "nav    nav"
+                         "contenido ads"
+                         "footer footer";
+}
+.contenedor .header{
+    background-color: azure;
+    grid-area: header;
+}
+.contenedor .nav{
+    background-color: azure;
+    grid-area: nav;
+}
+.contenedor .contenido{
+    background-color: azure;
+    grid-area: contenido;
+}
+.contenedor .ads{
+    background-color: azure;
+    grid-area: ads;
+}
+.contenedor .footer{
+    background-color: azure;
+    grid-area: footer;
+}
+
+
+
+.contenedor2{
+    padding: 5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: "header1 header1 header1"
+                        "ads1 contenido1 contenido1"
+                        "ads1 contenido1 contenido1"
+                        "footer1 footer1 footer1"
+}
+.contenedor .header1{
+    background-color: aliceblue;
+    grid-area: header1;
+}
+.contenedor .nav1{
+    background-color: aliceblue;
+    grid-area: nav1;
+}
+.contenedor .ads1{
+    background-color: aliceblue;
+    grid-area: ads1;
+}
+.contenedor .contenido1{
+    background-color: aliceblue;
+    grid-area: contenido1;
+}
+.contenedor .footer1{
+    background-color: aliceblue;
+    grid-area: footer1;
+}
+.contenedor3{
+    padding: 5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: "header2 header2 header2"
+}
+.contenedor .header2{
+    background-color: aliceblue;
+    grid-area: header2;
+}
+.contenedor .nav1{
+    background-color: aliceblue;
+    grid-area: nav1;
+}
+.contenedor .ads1{
+    background-color: aliceblue;
+    grid-area: ads1;
+}
+.contenedor .contenido1{
+    background-color: aliceblue;
+    grid-area: contenido1;
+}
+.contenedor .footer1{
+    background-color: aliceblue;
+    grid-area: footer1;
+}
